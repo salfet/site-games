@@ -1,0 +1,108 @@
+@media (max-width: 766px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .text {
+        width: 343px;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+
+    }
+
+    .top {
+        min-height: 735px;
+        background-image: url(img/backgroundmobile.jpg);
+
+        &__heading {
+            width: 343px;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 39px;
+            text-align: center;
+        }
+
+        &__content {
+            padding-top: 200px;
+        }
+
+
+
+        &__button_go {
+            margin: 0 auto;
+        }
+
+    }
+
+    .game__content {
+        gap: 64px;
+        padding-top: 50px;
+        padding-bottom: 85px;
+        width: 100%;
+
+    }
+
+    
+    .game {
+        &__heading {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 39px;
+            color: #FFFFFF;
+            text-align: center;
+            width: 100%;
+        }
+
+        &__three {
+            padding-top: 51px;
+        }
+
+
+    }
+
+    .game2 {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .game__content_3 {
+        background-image: url(img/bggame3.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: auto;
+        width: 100%;
+
+    }
+
+    .game__heading_3 {
+        text-align: center;
+        align-items: center;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 39px;
+        color: #FFFFFF;
+        
+
+    }
+
+    .text_3 {
+        text-align: center;
+        align-items: center;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 22px;
+        color: #FFFFFF;
+    }
+
+    .footer {
+        border-top: none;
+    }
+}
